@@ -2,6 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import Header from '@/components/Header'
+import About from '@/components/About'
+import Skills from '@/components/Skills'
 
 const index = () => {
   return (
@@ -12,6 +14,8 @@ const index = () => {
     </Head>
     <Navbar/>
     <Header/>
+    <About/>
+    <Skills/>
     </>
   )
 }
