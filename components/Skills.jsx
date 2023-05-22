@@ -16,14 +16,17 @@ import gitlab from '../public/assets/images/gitlab.png'
 import chatgpt from '../public/assets/images/chatgpt.png'
 import google from '../public/assets/images/google.png'
 import matterport from '../public/assets/images/matterport.png'
+import { Link } from 'react-scroll'
 
 const Skills = () => {
  
   return (
-    <div className={styles.skills}>
+    <div id='pageSkills' className={styles.skills}>
       <div className={styles.main}>
         <div className={styles.titleBox}>
-          <Image className={styles.linkIcon} src={linkIcon} alt='link icon'/>
+          <Link to="pageSkills" spy={true} smooth={true} offset={0} duration={500}>
+            <Image className={styles.linkIcon} src={linkIcon} alt='link icon'/>
+          </Link>
           <h1 style={{borderBottom: '1px solid #000'}} className={styles.pageTitle}>SKILLS</h1>
         </div>
         <div className={styles.skillBox}>

@@ -7,3 +7,70 @@
 body{
     font-family: 'Noto Sans KR', sans-serif; 
 }
+
+/* NAVBAR */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+}
+.container.active{
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  .navbar{
+    max-width: 1100px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #D0CBC8;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: #fff;
+}
+.navbarNav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.items{
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: #D0CBC8;
+}
+.items:hover{
+    color: #fff;
+}
+.logo.active, .items.active{
+    color: #453a33;
+}
+.items.active:hover, .logo.active:hover{
+    color: #F4623A;
+}
+.upIcon{
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    filter: invert(40%);
+    cursor: pointer;
+}
+
+  
+  

@@ -8,8 +8,7 @@ import locationIcon from '../public/assets/icons/geo-alt-fill.svg'
 import phoneIcon from '../public/assets/icons/telephone-fill.svg'
 import emailIcon from '../public/assets/icons/envelope-fill.svg'
 import eduIcon from '../public/assets/icons/pencil-fill.svg'
-import { useEffect } from 'react'
-
+import { Link } from 'react-scroll'
 
 const About = () => {
   const info = [
@@ -21,10 +20,12 @@ const About = () => {
     {id:6, icon: eduIcon, title: '이메일', content: '동아대학교'},
   ]
   return (
-    <div className={styles.about}>
+    <div id='pageAbout' className={styles.about}>
         <div className={styles.main}>
             <div className={styles.titleBox}>
-              <Image className={styles.linkIcon} src={linkIcon} alt='link icon'/>
+              <Link to="pageAbout" spy={true} smooth={true} offset={0} duration={500}>
+                <Image className={styles.linkIcon} src={linkIcon} alt='link icon'/>
+              </Link>
               <h1 className={styles.pageTitle}> ABOUT ME</h1>
             </div>
             <div className={styles.aboutBox}>
