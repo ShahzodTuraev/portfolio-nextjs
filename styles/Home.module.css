@@ -196,4 +196,27 @@
   border-radius: 15px;
   padding: 24px;
   margin-bottom: 30px;
+  box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+  transition: all 0.2s;
 }
+.frontBox:hover, .backendBox:hover, .deployBox:hover, .controlBox:hover, .otherBox:hover{
+  transform: translateY(10px);
+}
+.skillTitle{
+  color: #fa623a;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 24px;
+  /* font-size: 24px; */
+}
+.backendBox{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.controlBox, .otherBox{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
