@@ -16,9 +16,10 @@ const Projects = () => {
           <h1 style={{color: '#fff', borderBottom: '1px solid #ffffff'}} className={styles.pageTitle}>PROJECTS</h1>
         </div>
         <div className={styles.projectsBox}>
-        
-            
         </div>
+        <section className={styles.projectCard}>
+          pro
+        </section>
       </div>
     </div>
   )
