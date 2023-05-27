@@ -82,7 +82,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: auto;
   
 }
 
@@ -92,7 +92,7 @@
   align-items: center;
   max-width: 1140px;
   width: 100%;
-  margin-top: 80px; 
+  margin: 80px 0; 
 }
 .titleBox{
   display: flex;
@@ -212,4 +212,66 @@
   background-color: #fff;
   border-radius: 15px;
   padding: 50px;
+  margin-bottom: 50px;
+}
+.projectTitle{
+  font-size: 35px;
+  text-align: center;
+  color: #000758;
+}
+.projectDate{
+  text-align: center;
+  color: #494949;
+  margin: 10px 0 40px 0;
+}
+.projectWrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.corWrap{
+  position: relative;
+}
+.imgNumber{
+  position: absolute;
+  left: 20px;
+  color: #f0f0f0;
+  bottom: 5px;
+  font-size: 16px;
+}
+.projectContent{
+  padding: 0 30px;
+}
+.projectContent p{
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.projectContent article{
+  color: #494949;
+  margin: 20px 0;
+}
+.featureItem{
+  display: flex;
+  margin: 25px 0;
+}
+.featureItem p:nth-child(1){
+  flex: 1;
+}
+.featureItem p:nth-child(2){
+  flex: 2;
+  font-weight: 400;
+  font-size: 16px;
+}
+.featureItem a{
+  text-decoration: none;
+  color: rgb(0, 5, 160);
+  flex: 2;
+}
+.featureItem a:hover{
+  text-decoration: underline;
+}
+.projectFeatures>h4{
+  color: red;
+  font-size: 12px;
+  font-weight: 400;
 }

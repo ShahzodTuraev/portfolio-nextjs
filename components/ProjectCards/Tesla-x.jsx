@@ -20,10 +20,10 @@ const contentStyle = {
     width:'480px',
     background:'#242323'
   }
-const Houzing = () => {
+const Tesla = () => {
   return (
     <div>
-      <h1 className={styles.projectTitle}>HOUSING WEBSITE</h1>
+      <h1 className={styles.projectTitle}>TESLA WEBSITE</h1>
       <p className={styles.projectDate}>2022.12(Team Project)</p>
       <div className={styles.projectWrap}>
         <div className={styles.projectImg}>
@@ -90,4 +90,4 @@ const Houzing = () => {
   )
 }
 
-export default Houzing
+export default Tesla

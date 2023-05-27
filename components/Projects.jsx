@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Link } from 'react-scroll'
 import linkIcon from '../public/assets/icons/white-link.png'
 import Houzing from './ProjectCards/Houzing'
+import Tesla from './ProjectCards/Tesla-x'
 
 const Projects = () => {
  
@@ -20,6 +21,9 @@ const Projects = () => {
         </div>
         <section className={styles.projectCard}>
           <Houzing/>
+        </section>
+        <section className={styles.projectCard}>
+          <Tesla/>
         </section>
       </div>
     </div>
