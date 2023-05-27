@@ -6,9 +6,10 @@ import linkIcon from '../public/assets/icons/white-link.png'
 import Houzing from './ProjectCards/Houzing'
 import Tesla from './ProjectCards/Tesla-x'
 import Mever from './ProjectCards/Mever'
+import Matterport from './ProjectCards/Matteport'
 
 const Projects = () => {
- 
+
   return (
     <div id='pageProjects' className={styles.projects}>
       <div className={styles.main}>
@@ -20,6 +21,9 @@ const Projects = () => {
         </div>
         <div className={styles.projectsBox}>
         </div>
+        <section className={styles.projectCard}>
+          <Matterport/>
+        </section>
         <section className={styles.projectCard}>
           <Houzing/>
         </section>
