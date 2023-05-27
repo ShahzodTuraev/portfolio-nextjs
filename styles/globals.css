@@ -34,7 +34,7 @@ body{
 .logo{
     font-size: 1.5rem;
     font-weight: 700;
-    color: #D0CBC8;
+    color: #e4e4e4;
     cursor: pointer;
 }
 
@@ -48,10 +48,10 @@ body{
 }
 .items{
     list-style-type: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     cursor: pointer;
-    color: #D0CBC8;
+    color: #e4e4e4;
 }
 .items:hover{
     color: #fff;

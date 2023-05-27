@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import { Link } from 'react-scroll'
 import linkIcon from '../public/assets/icons/white-link.png'
+import Houzing from './ProjectCards/Houzing'
 
 const Projects = () => {
  
@@ -18,7 +19,7 @@ const Projects = () => {
         <div className={styles.projectsBox}>
         </div>
         <section className={styles.projectCard}>
-          pro
+          <Houzing/>
         </section>
       </div>
     </div>
