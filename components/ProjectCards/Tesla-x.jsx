@@ -3,12 +3,12 @@ import styles from '../../styles/Home.module.css'
 import { Carousel } from 'antd';
 import Image from 'next/image';
 import check from '../../public/assets/icons/check.svg'
-import housing1 from '../../public/assets/images/houzing-1.png'
-import housing2 from '../../public/assets/images/houzing-2.png'
-import housing3 from '../../public/assets/images/houzing-3.png'
-import housing4 from '../../public/assets/images/houzing-4.png'
-import housing5 from '../../public/assets/images/houzing-5.png'
-import housing6 from '../../public/assets/images/houzing-6.png'
+import tesla1 from '../../public/assets/images/tesla-1.png'
+import tesla2 from '../../public/assets/images/tesla-2.png'
+import tesla3 from '../../public/assets/images/tesla-3.png'
+import tesla4 from '../../public/assets/images/tesla-4.png'
+import tesla5 from '../../public/assets/images/tesla-5.png'
+import tesla6 from '../../public/assets/images/tesla-6.png'
 const contentStyle = {
     margin: 0,
     height: '620px',
@@ -23,66 +23,65 @@ const contentStyle = {
 const Tesla = () => {
   return (
     <div>
-      <h1 className={styles.projectTitle}>TESLA WEBSITE</h1>
-      <p className={styles.projectDate}>2022.12(Team Project)</p>
+      <h1 className={styles.projectTitle}>TESLA-CLONE WEBSITE</h1>
+      <p className={styles.projectDate}>2023.04(Self Project)</p>
       <div className={styles.projectWrap}>
         <div className={styles.projectImg}>
           <div className={styles.corWrap}>
             <Carousel style={corusStyle}>
               <div>
-                <Image style={contentStyle} src={housing1} alt='page1'/>
+                <Image style={contentStyle} src={tesla1} alt='page1'/>
               </div>
               <div>
-                <Image style={contentStyle} src={housing2} alt='page2'/>
+                <Image style={contentStyle} src={tesla2} alt='page2'/>
               </div>
               <div>
-                <Image style={contentStyle} src={housing3} alt='page3'/>
+                <Image style={contentStyle} src={tesla3} alt='page3'/>
               </div>
               <div>
-                <Image style={contentStyle} src={housing4} alt='page4'/>
+                <Image style={contentStyle} src={tesla4} alt='page4'/>
               </div>
               <div>
-                <Image style={contentStyle} src={housing5} alt='page5'/>
+                <Image style={contentStyle} src={tesla5} alt='page5'/>
               </div>
               <div>
-                <Image style={contentStyle} src={housing6} alt='page6'/>
+                <Image style={contentStyle} src={tesla6} alt='page6'/>
               </div>
             </Carousel>
-            <p className={styles.imgNumber}>6 images :</p>
+            <p className={styles.imgNumber}>6 pictures :</p>
           </div>
         </div>
       <div className={styles.projectContent}>
         <p>Background :</p>
-        <article> After completing my front-end course, I participated in an internship as a front-end developer. During the internship, we worked on a project called 'Houzing' under the guidance of a senior developer. The purpose of the project was to test and apply the foundational knowledge of web development for new frontend developers, such as myself.</article>
+        <article>I have recently acquired knowledge of a new web development technology called Next.js, and I must say it's truly impressive and convenient, especially for front-end developers familiar with React.js. As part of my learning journey, I embarked on my first independent project using Next.js called 'Tesla - Clone.' To create the design, I took inspiration from the actual Tesla website.</article>
         <p>About :</p>
-        <article>The project offers a platform that enables users to borrow or rent houses based on their preferences, including type, price, size, location, and other features (picture 1). Initially, users are required to register on the website in order to access all the pages and features (picture 3). Upon registration, each user is provided with a personalized user page (picture 4) where they can add new rental properties, such as houses. Adding a new house involves providing comprehensive information about the property (picture 5). The added house card is then displayed on the 'Properties' page (picture 2), visible to all users. Alternatively, if a user intends to purchase a house, they can click on a house box on the 'Properties' page to navigate to the 'Details' page (picture 6). Here, they have the option to directly contact the house owner for rental inquiries.</article>
+        <article>The project serves as an introduction to Tesla's automobile models and other products offered by the company (picture 1). When the "Order Now" button is clicked, it directs the user to a dedicated page displaying the product features (picture 2). On this page, users can choose the type or specific features of the desired product. The "Demo Drive" function allows users to explore different Tesla automobile types and select one for a demonstration drive (picture 3). The "Shop" function in the navigation bar showcases Tesla car equipment available for purchase (picture 4). User authentication is implemented using Firebase technology, allowing users to sign in and access the authorized page (picture 5). Additionally, the project incorporates Google Analytics tools to gather data about user interactions and behavior.</article>
         <br /><hr />
         <div className={styles.projectFeatures}>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> Main Functions</p>
-            <p>User Authority, Sign in, Sign out, Saving data, data visible for all,  direct contact</p>
+            <p>User Authority, Sign in, Sign out, Google Analytics, Responsive Design</p>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> GitHub</p>
-            <a href="https://github.com/ShahzodTuraev/houzing">github.com/ShahzodTuraev/houzing</a>
+            <a href="https://github.com/ShahzodTuraev/tesla-clone-next-js">github.com/ShahzodTuraev/tesla-clone-next-js</a>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> URL</p>
-            <a href="https://webhouzing.netlify.app">webhouzing.netlify.app</a>
+            <a href="https://tesla-x.vercel.app/">tesla-x.vercel.app/</a>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> Frontend</p>
-            <p>React js, Styled Components, React Query, Ant Design</p>
+            <p>Next js, Module CSS</p>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> Backend</p>
-            <p>Java, Spring Framework</p>
+            <p>Firebase</p>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> Deployment</p>
-            <p>Netlify</p>
+            <p>Vercel</p>
           </div>
-          <h4>( Due to some beckend servers issues, the site runs only front part )</h4>
         </div>
       </div>
       </div>
