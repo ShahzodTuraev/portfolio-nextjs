@@ -44,10 +44,12 @@ body{
 .navbarNav{
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    align-items: center;
+    width: 50%;
 }
 .items{
     list-style-type: none;
+    text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
     cursor: pointer;

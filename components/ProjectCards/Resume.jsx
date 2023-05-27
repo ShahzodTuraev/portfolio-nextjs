@@ -3,11 +3,10 @@ import styles from '../../styles/Home.module.css'
 import { Carousel } from 'antd';
 import Image from 'next/image';
 import check from '../../public/assets/icons/check.svg'
-import matterport1 from '../../public/assets/images/matterport-1.png'
-import matterport2 from '../../public/assets/images/matterport-2.png'
-import matterport3 from '../../public/assets/images/matterport-3.png'
-import matterport4 from '../../public/assets/images/matterport-4.png'
-import matterport5 from '../../public/assets/images/matterport-5.png'
+import portfolio1 from '../../public/assets/images/portfolio-1.png'
+import portfolio2 from '../../public/assets/images/portfolio-2.png'
+import portfolio3 from '../../public/assets/images/portfolio-3.png'
+import portfolio4 from '../../public/assets/images/portfolio-4.png'
 
 const contentStyle = {
     margin: 0,
@@ -20,29 +19,26 @@ const contentStyle = {
     width:'480px',
     background:'#242323'
   }
-const Matterport = () => {
+const Resume = () => {
   return (
     <div>
-      <h1 className={styles.projectTitle}>3D MATTERPORT WEBSITE</h1>
-      <p className={styles.projectDate}>2023.05(Team Project)</p>
+      <h1 className={styles.projectTitle}>PORTFOLIO WEBSITE</h1>
+      <p className={styles.projectDate}>2023.05(SELF Project)</p>
       <div className={styles.projectWrap}>
         <div className={styles.projectImg}>
           <div className={styles.corWrap}>
             <Carousel style={corusStyle}>
               <div>
-                <Image style={contentStyle} src={matterport1} alt='page1'/>
+                <Image style={contentStyle} src={portfolio1} alt='page1'/>
               </div>
               <div>
-                <Image style={contentStyle} src={matterport2} alt='page2'/>
+                <Image style={contentStyle} src={portfolio2} alt='page2'/>
               </div>
               <div>
-                <Image style={contentStyle} src={matterport3} alt='page3'/>
+                <Image style={contentStyle} src={portfolio3} alt='page3'/>
               </div>
               <div>
-                <Image style={contentStyle} src={matterport4} alt='page4'/>
-              </div>
-              <div>
-                <Image style={contentStyle} src={matterport5} alt='page5'/>
+                <Image style={contentStyle} src={portfolio4} alt='page4'/>
               </div>
             </Carousel>
             <p className={styles.imgNumber}>5 pictures :</p>
@@ -87,4 +83,4 @@ const Matterport = () => {
   )
 }
 
-export default Matterport
+export default Resume

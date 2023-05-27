@@ -2,9 +2,11 @@ import React, {useState, useEffect} from 'react'
 import Image from 'next/image';
 import upIcon from '../public/assets/icons/page-up.svg'
 import { Link } from 'react-scroll';
+import { Dropdown } from "@nextui-org/react";
+
+
 const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
-
   useEffect(() => {
     const handleScroll = () => {
       const position = window.pageYOffset;
@@ -34,7 +36,8 @@ const Navbar = () => {
                 <Link  to="pageSkills" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>Skills</Link>
                 <Link to="pageProjects" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>Projects</Link>
                 <Link to="pageSkills" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>Career</Link>
-                <Link className={isScrolled?'items active':'items'}>CV</Link>
+                <a className={isScrolled?'items active':'items'} href="https://shahzod-cv.netlify.app/">CV</a>
+                <a className={isScrolled?'items active':'items'} href="https://cv-kr.netlify.app/">이력서</a>
             </div>
         </nav>
         {isTopScroll&&<Link to="pageHeader" spy={true} smooth={true} offset={0} duration={500}><Image src={upIcon} alt='pageUp' className='upIcon'/></Link>}

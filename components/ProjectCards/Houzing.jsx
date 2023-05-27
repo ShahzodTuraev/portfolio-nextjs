@@ -82,7 +82,7 @@ const Houzing = () => {
             <p><Image width={20} height={15} src={check} alt='check'/> Deployment</p>
             <p>Netlify</p>
           </div>
-          <h4>( Due to some beckend servers issues, the site runs only front part )</h4>
+          <h4>( Due to some backend server issues, the site runs only front part )</h4>
         </div>
       </div>
       </div>

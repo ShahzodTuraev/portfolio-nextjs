@@ -7,6 +7,7 @@ import Houzing from './ProjectCards/Houzing'
 import Tesla from './ProjectCards/Tesla-x'
 import Mever from './ProjectCards/Mever'
 import Matterport from './ProjectCards/Matteport'
+import Resume from './ProjectCards/Resume'
 
 const Projects = () => {
 
@@ -25,13 +26,16 @@ const Projects = () => {
           <Matterport/>
         </section>
         <section className={styles.projectCard}>
-          <Houzing/>
-        </section>
-        <section className={styles.projectCard}>
           <Tesla/>
         </section>
         <section className={styles.projectCard}>
           <Mever/>
+        </section>
+        <section className={styles.projectCard}>
+          <Resume/>
+        </section>
+        <section className={styles.projectCard}>
+          <Houzing/>
         </section>
       </div>
     </div>
