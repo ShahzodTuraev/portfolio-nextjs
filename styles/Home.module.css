@@ -6,7 +6,7 @@
   align-items: center;
   height: auto;
   width: 100%;
-  background-image: url(../public/assets/images/header-back.webp);
+  background-image: url('../public/assets/images/header-back.webp');
   height: 650px;
   background-size: 100%;
 }
