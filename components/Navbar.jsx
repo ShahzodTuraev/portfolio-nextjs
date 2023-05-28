@@ -35,7 +35,7 @@ const Navbar = () => {
                 <Link to="pageAbout" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>About me</Link>
                 <Link  to="pageSkills" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>Skills</Link>
                 <Link to="pageProjects" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>Projects</Link>
-                <Link to="pageSkills" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>Career</Link>
+                <Link to="pageCareer" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>Career</Link>
                 <a className={isScrolled?'items active':'items'} href="https://shahzod-cv.netlify.app/">CV</a>
                 <a className={isScrolled?'items active':'items'} href="https://cv-kr.netlify.app/">이력서</a>
             </div>

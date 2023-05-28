@@ -46,35 +46,28 @@ const Resume = () => {
         </div>
       <div className={styles.projectContent}>
         <p>About :</p>
-        <article>Matterport plays a central role in this project, offering a technology that presents realistic 3D models of buildings or areas in a portable format. One of the showcased locations is an Art Gallery, where visitors not only have the opportunity to view current art pieces directly but also explore previous art collections through a sensor monitor at the entrance (depicted in picture 1). However, the primary objective of the project goes beyond the gallery experience.
-                Within the Matterport interface, users can click on specific points to access additional information about the art pictures or items on display (as shown in picture 2). Furthermore, there is a payment link available, which, when clicked, directs users to the payment section (depicted in picture 3), where online banking systems are utilized for convenient online transactions (as depicted in picture 4). The project website also features 3D modules of other buildings, including a café. In the virtual realm, visitors can simulate the real-life experience of purchasing a coffee (as portrayed in picture 5). Additionally, users have the option to reserve and schedule payments for future dates by selecting a reservation date.</article>                
-        <p>My Role</p>
-        <article>Developing all the Frontend part, Connecting Matterport events to the website</article>
+        <article>This website serves as my portfolio site, utilizing the advantages of Next.js to present my portfolio in a unified manner. I have focused on keeping the website simple and user-friendly since its purpose is to provide information. The navigation bar offers access to my resume in both English and Korean languages. Additionally, the site provides a concise introduction about myself, highlights my skills, and offers detailed information about my projects and career.</article>
         <br /><hr />
         <div className={styles.projectFeatures}>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> Main Functions</p>
-            <p>MatterPort, 3D Models, Toss API, Responsive Design</p>
+            <p>Brief self-introduction, technology stack, project experience, work experience</p>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> GitHub</p>
-            <a href="https://github.com/ShahzodTuraev/art_gallery-jquery">github.com/ShahzodTuraev/art_gallery-jquery</a>
+            <a href="https://github.com/ShahzodTuraev/portfolio-nextjs">github.com/ShahzodTuraev/portfolio-nextjs</a>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> URL</p>
-            <a href="https://mever.me/art2">mever.me/art2</a>
+            <a href="https://s-portfolio.vercel.app/">s-portfolio.vercel.app/</a>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> Frontend</p>
-            <p>jQuery</p>
-          </div>
-          <div className={styles.featureItem}>
-            <p><Image width={20} height={15} src={check} alt='check'/> Backend</p>
-            <p>Java, Spring Framework</p>
+            <p>Next js</p>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> Deployment</p>
-            <p>on-site Server </p>
+            <p>vercel </p>
           </div>
         </div>
       </div>

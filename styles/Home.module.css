@@ -6,7 +6,7 @@
   align-items: center;
   height: auto;
   width: 100%;
-  background-image: url(../public/assets/images/headerbackground.jpg);
+  background-image: url(../public/assets/images/header-back.webp);
   height: 650px;
   background-size: 100%;
 }
@@ -274,4 +274,83 @@
   color: red;
   font-size: 12px;
   font-weight: 400;
+}
+
+/* CAREER */
+.career{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F5F5F5;
+}
+.careerBox{
+  width: 100%;
+  display: flex;
+  margin: 30px 0;
+}
+.companyLogo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 100px;
+}
+.imgWrap{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 100px;
+  border: 1px solid #CCCCCC;
+  background-color: #fff;
+}
+.companymLogo{
+  width: 160px;
+  height: 45px;
+  margin: 0 20px;
+}
+.companyBox{
+  padding-left: 100px;
+  border-left: 1px solid #CCCCCC;
+  color: #494949;
+}
+.companyBox>h2{
+  color: #1e2023;
+}
+.companyBox li{
+  list-style-position: inside;
+  margin-bottom: 5px;
+}
+.companyBox>p{
+  margin-bottom: 20px;
+}
+.companyBox>article{
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+.footer{
+  background: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.iconBox{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.logoLink{
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.footer p{
+  font-size: 20px;
+  margin-top: 40px;
+  color: rgb(54, 54, 54);
+
 }
