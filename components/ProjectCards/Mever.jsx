@@ -10,17 +10,7 @@ import mever4 from '../../public/assets/images/mever-4.png'
 import mever5 from '../../public/assets/images/mever-5.png'
 import mever6 from '../../public/assets/images/mever-6.png'
 import mever7 from '../../public/assets/images/mever-7.png'
-const contentStyle = {
-    margin: 0,
-    height: '620px',
-    width: '480px',
-    textAlign: 'center',
-  };
-  const corusStyle = {
-    height: "650px",
-    width:'480px',
-    background:'#242323'
-  }
+
 const Mever = () => {
   return (
     <div>
@@ -29,27 +19,27 @@ const Mever = () => {
       <div className={styles.projectWrap}>
         <div className={styles.projectImg}>
           <div className={styles.corWrap}>
-            <Carousel style={corusStyle}>
+            <Carousel className='corusel'>
               <div>
-                <Image style={contentStyle} src={mever1} alt='page1'/>
+                <Image className='coruselImg' src={mever1} alt='page1'/>
               </div>
               <div>
-                <Image style={contentStyle} src={mever2} alt='page2'/>
+                <Image className='coruselImg' src={mever2} alt='page2'/>
               </div>
               <div>
-                <Image style={contentStyle} src={mever3} alt='page3'/>
+                <Image className='coruselImg' src={mever3} alt='page3'/>
               </div>
               <div>
-                <Image style={contentStyle} src={mever4} alt='page4'/>
+                <Image className='coruselImg' src={mever4} alt='page4'/>
               </div>
               <div>
-                <Image style={contentStyle} src={mever5} alt='page5'/>
+                <Image className='coruselImg' src={mever5} alt='page5'/>
               </div>
               <div>
-                <Image style={contentStyle} src={mever6} alt='page6'/>
+                <Image className='coruselImg' src={mever6} alt='page6'/>
               </div>
               <div>
-                <Image style={contentStyle} src={mever7} alt='page7'/>
+                <Image className='coruselImg' src={mever7} alt='page7'/>
               </div>
             </Carousel>
             <p className={styles.imgNumber}>7 pictures :</p>

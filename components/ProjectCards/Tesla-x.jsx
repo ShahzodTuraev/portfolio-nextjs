@@ -9,17 +9,7 @@ import tesla3 from '../../public/assets/images/tesla-3.png'
 import tesla4 from '../../public/assets/images/tesla-4.png'
 import tesla5 from '../../public/assets/images/tesla-5.png'
 import tesla6 from '../../public/assets/images/tesla-6.png'
-const contentStyle = {
-    margin: 0,
-    height: '620px',
-    width: '480px',
-    textAlign: 'center',
-  };
-  const corusStyle = {
-    height: "650px",
-    width:'480px',
-    background:'#242323'
-  }
+
 const Tesla = () => {
   return (
     <div>
@@ -28,24 +18,24 @@ const Tesla = () => {
       <div className={styles.projectWrap}>
         <div className={styles.projectImg}>
           <div className={styles.corWrap}>
-            <Carousel style={corusStyle}>
+            <Carousel className='corusel'>
               <div>
-                <Image style={contentStyle} src={tesla1} alt='page1'/>
+                <Image className='coruselImg' src={tesla1} alt='page1'/>
               </div>
               <div>
-                <Image style={contentStyle} src={tesla2} alt='page2'/>
+                <Image className='coruselImg' src={tesla2} alt='page2'/>
               </div>
               <div>
-                <Image style={contentStyle} src={tesla3} alt='page3'/>
+                <Image className='coruselImg' src={tesla3} alt='page3'/>
               </div>
               <div>
-                <Image style={contentStyle} src={tesla4} alt='page4'/>
+                <Image className='coruselImg' src={tesla4} alt='page4'/>
               </div>
               <div>
-                <Image style={contentStyle} src={tesla5} alt='page5'/>
+                <Image className='coruselImg' src={tesla5} alt='page5'/>
               </div>
               <div>
-                <Image style={contentStyle} src={tesla6} alt='page6'/>
+                <Image className='coruselImg' src={tesla6} alt='page6'/>
               </div>
             </Carousel>
             <p className={styles.imgNumber}>6 pictures :</p>

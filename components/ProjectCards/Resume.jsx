@@ -8,17 +8,6 @@ import portfolio2 from '../../public/assets/images/portfolio-2.png'
 import portfolio3 from '../../public/assets/images/portfolio-3.png'
 import portfolio4 from '../../public/assets/images/portfolio-4.png'
 
-const contentStyle = {
-    margin: 0,
-    height: '620px',
-    width: '480px',
-    textAlign: 'center',
-  };
-  const corusStyle = {
-    height: "650px",
-    width:'480px',
-    background:'#242323'
-  }
 const Resume = () => {
   return (
     <div>
@@ -27,18 +16,18 @@ const Resume = () => {
       <div className={styles.projectWrap}>
         <div className={styles.projectImg}>
           <div className={styles.corWrap}>
-            <Carousel style={corusStyle}>
+            <Carousel className='corusel'>
               <div>
-                <Image style={contentStyle} src={portfolio1} alt='page1'/>
+                <Image className='coruselImg' src={portfolio1} alt='page1'/>
               </div>
               <div>
-                <Image style={contentStyle} src={portfolio2} alt='page2'/>
+                <Image className='coruselImg' src={portfolio2} alt='page2'/>
               </div>
               <div>
-                <Image style={contentStyle} src={portfolio3} alt='page3'/>
+                <Image className='coruselImg' src={portfolio3} alt='page3'/>
               </div>
               <div>
-                <Image style={contentStyle} src={portfolio4} alt='page4'/>
+                <Image className='coruselImg' src={portfolio4} alt='page4'/>
               </div>
             </Carousel>
             <p className={styles.imgNumber}>5 pictures :</p>

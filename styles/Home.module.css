@@ -55,10 +55,11 @@
   text-shadow: 2px 2px 4px rgba(99, 99, 99, 0.5);
 }
 .supHeading{
-  color: #D7D3D0;
+  color: #f1edea;
   font-size: 24px;
   text-align: center;
   line-height: 40px;
+  font-weight: 500;
 }
 .btnNext{
   background: #F16139;
@@ -165,7 +166,7 @@
   display: flex;
   justify-content: space-between;
   width: 92%;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 .frontBox, .backendBox, .deployBox, .controlBox, .otherBox{
   background: #fff;
@@ -328,7 +329,17 @@
 .companyBox>article{
   margin-bottom: 20px;
 }
-
+.corusel{
+  height: 650px;
+  width:480px;
+  background:'#242323'
+}
+.coruselImg{
+  margin: 0;
+  height: 620px;
+  width: 480px;
+  text-align: center;
+}
 /* FOOTER */
 
 .footer{
@@ -343,14 +354,53 @@
   width: 50%;
 }
 .logoLink{
-  width: 60px;
-  height: 60px;
-  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
 .footer p{
   font-size: 20px;
   margin-top: 40px;
   color: rgb(54, 54, 54);
+}
 
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 820px) {
+  .skillBox{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .versionBox{
+    border: 1px solid red;
+    display: contents;
+  }
+  .projectWrap{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .careerBox{
+    padding: 0 50px;
+  }
+  .companyLogo{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+  }
+  .companyBox{
+    padding-left: 50px;
+  }
+  .companymLogo{
+    width: 120px;
+    height: 35px;
+  }
+  .imgWrap{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+  }
+  .iconBox{
+    width: 70%;
+  }
 }

@@ -9,17 +9,6 @@ import matterport3 from '../../public/assets/images/matterport-3.png'
 import matterport4 from '../../public/assets/images/matterport-4.png'
 import matterport5 from '../../public/assets/images/matterport-5.png'
 
-const contentStyle = {
-    margin: 0,
-    height: '620px',
-    width: '480px',
-    textAlign: 'center',
-  };
-  const corusStyle = {
-    height: "650px",
-    width:'480px',
-    background:'#242323'
-  }
 const Matterport = () => {
   return (
     <div>
@@ -28,21 +17,21 @@ const Matterport = () => {
       <div className={styles.projectWrap}>
         <div className={styles.projectImg}>
           <div className={styles.corWrap}>
-            <Carousel style={corusStyle}>
+            <Carousel className='corusel'>
               <div>
-                <Image style={contentStyle} src={matterport1} alt='page1'/>
+                <Image className='coruselImg' src={matterport1} alt='page1'/>
               </div>
               <div>
-                <Image style={contentStyle} src={matterport2} alt='page2'/>
+                <Image className='coruselImg' src={matterport2} alt='page2'/>
               </div>
               <div>
-                <Image style={contentStyle} src={matterport3} alt='page3'/>
+                <Image className='coruselImg' src={matterport3} alt='page3'/>
               </div>
               <div>
-                <Image style={contentStyle} src={matterport4} alt='page4'/>
+                <Image className='coruselImg' src={matterport4} alt='page4'/>
               </div>
               <div>
-                <Image style={contentStyle} src={matterport5} alt='page5'/>
+                <Image className='coruselImg' src={matterport5} alt='page5'/>
               </div>
             </Carousel>
             <p className={styles.imgNumber}>5 pictures :</p>

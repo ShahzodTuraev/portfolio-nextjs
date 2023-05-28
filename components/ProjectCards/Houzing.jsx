@@ -9,17 +9,7 @@ import housing3 from '../../public/assets/images/houzing-3.png'
 import housing4 from '../../public/assets/images/houzing-4.png'
 import housing5 from '../../public/assets/images/houzing-5.png'
 import housing6 from '../../public/assets/images/houzing-6.png'
-const contentStyle = {
-    margin: 0,
-    height: '620px',
-    width: '480px',
-    textAlign: 'center',
-  };
-  const corusStyle = {
-    height: "650px",
-    width:'480px',
-    background:'#242323'
-  }
+
 const Houzing = () => {
   return (
     <div>
@@ -28,24 +18,24 @@ const Houzing = () => {
       <div className={styles.projectWrap}>
         <div className={styles.projectImg}>
           <div className={styles.corWrap}>
-            <Carousel style={corusStyle}>
+            <Carousel className='corusel'>
               <div>
-                <Image style={contentStyle} src={housing1} alt='page1'/>
+                <Image className='coruselImg' src={housing1} alt='page1'/>
               </div>
               <div>
-                <Image style={contentStyle} src={housing2} alt='page2'/>
+                <Image className='coruselImg' src={housing2} alt='page2'/>
               </div>
               <div>
-                <Image style={contentStyle} src={housing3} alt='page3'/>
+                <Image className='coruselImg' src={housing3} alt='page3'/>
               </div>
               <div>
-                <Image style={contentStyle} src={housing4} alt='page4'/>
+                <Image className='coruselImg' src={housing4} alt='page4'/>
               </div>
               <div>
-                <Image style={contentStyle} src={housing5} alt='page5'/>
+                <Image className='coruselImg' src={housing5} alt='page5'/>
               </div>
               <div>
-                <Image style={contentStyle} src={housing6} alt='page6'/>
+                <Image className='coruselImg' src={housing6} alt='page6'/>
               </div>
             </Carousel>
             <p className={styles.imgNumber}>6 images :</p>
