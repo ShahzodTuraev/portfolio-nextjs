@@ -401,7 +401,7 @@
       font-size: 20px;
       line-height: 30px;
       font-weight: 500;
-      padding: 0 20px;
+      padding: 0 10px;
     }
     .header{
       background-repeat: no-repeat;
@@ -421,6 +421,10 @@
     .featureItem{
       flex-direction: column;
     }
+    .featureItem p:nth-child(2), .featureItem a{
+      margin-left: 25px;
+    }
+    
     .careerBox{
       flex-direction: column;
       align-items: center;
