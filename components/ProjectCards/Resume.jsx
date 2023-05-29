@@ -48,7 +48,7 @@ const Resume = () => {
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> URL</p>
-            <a href="https://s-portfolio.vercel.app/">s-portfolio.vercel.app/</a>
+            <a href="https://s-portfolio.vercel.app/">s-portfolio.vercel.app</a>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> Frontend</p>

@@ -54,8 +54,8 @@ const Navbar = () => {
         <Link onClick={onMenu} to="pageSkills" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>Skills</Link>
         <Link onClick={onMenu} to="pageProjects" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>Projects</Link>
         <Link onClick={onMenu} to="pageCareer" spy={true} smooth={true} offset={0} duration={500} className={isScrolled?'items active':'items'}>Career</Link>
-        <a onClick={onMenu} className={isScrolled?'items active':'items'} href="https://shahzod-cv.netlify.app/">CV</a>
-        <a onClick={onMenu} className={isScrolled?'items active':'items'} href="https://cv-kr.netlify.app/">이력서</a>    
+        <a onClick={onMenu} className={isScrolled?'items active':'items'} href="https://eng-resume.netlify.app/">CV</a>
+        <a onClick={onMenu} className={isScrolled?'items active':'items'} href="https://kr-resume.netlify.app/">이력서</a>    
       </div>
     </> 
   )
