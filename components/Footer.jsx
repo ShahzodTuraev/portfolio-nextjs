@@ -8,7 +8,6 @@ import linkedin from '../public/assets/icons/linkedin.png'
 import instagram from '../public/assets/icons/instagram.png'
 import facebook from '../public/assets/icons/facebook.png'
 
-import { Link } from 'react-scroll'
 const Footer = () =>{
   return (
     <div className={styles.footer}>

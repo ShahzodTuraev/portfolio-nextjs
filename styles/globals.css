@@ -140,3 +140,18 @@ body{
     color:#F4623A;
   }
 }
+
+  @media screen and (max-width: 420px) {
+  body{
+    width: 100vw;
+    height: 100vh;
+  }
+  .corusel{
+      height: 450px;
+      width: 350px;
+  }
+  .coruselImg{
+      height: 420px;
+      width: 350px;
+  }
+  }

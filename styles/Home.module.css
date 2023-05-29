@@ -256,7 +256,7 @@
   margin: 25px 0;
 }
 .featureItem p:nth-child(1){
-  flex: 1;
+  flex: 1; 
 }
 .featureItem p:nth-child(2){
   flex: 2;
@@ -329,17 +329,7 @@
 .companyBox>article{
   margin-bottom: 20px;
 }
-.corusel{
-  height: 650px;
-  width:480px;
-  background:'#242323'
-}
-.coruselImg{
-  margin: 0;
-  height: 620px;
-  width: 480px;
-  text-align: center;
-}
+
 /* FOOTER */
 
 .footer{
@@ -403,4 +393,60 @@
   .iconBox{
     width: 70%;
   }
+  @media screen and (max-width: 420px) {
+    .heading{
+      font-size: 30px;
+    }
+    .supHeading{
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 500;
+      padding: 0 20px;
+    }
+    .header{
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .projectTitle{
+      font-size: 20px;
+    }
+    .projectDate{
+      margin-bottom: 10px;
+    }
+    .projectCard{
+      width: 95%;
+      padding: 20px 0;
+    }
+    .featureItem{
+      flex-direction: column;
+    }
+    .careerBox{
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .companyLogo{
+      margin: 0;
+    }
+    .imgWrap{
+      margin: 0;
+    }
+    .companyBox{
+      padding: 0;
+      border: none;
+    }
+    .logoLink{
+      width: 30px;
+      height: 30px;
+    }
+    .footer p{
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .footer>div{
+      margin: 20px 0;
+    }
+  }
+
 }

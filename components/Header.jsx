@@ -6,7 +6,6 @@ const Header = () => {
   return (
     <div id='pageHeader' className={styles.header}>
         <div className={styles.filterBox}>
-
         </div>
       <div className={styles.headerCard}>
         <h1 className={styles.heading}>웹 개발자 포트폴리오</h1>
