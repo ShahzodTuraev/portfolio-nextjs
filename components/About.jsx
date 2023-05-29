@@ -17,7 +17,7 @@ const About = () => {
     {id:3, icon: locationIcon, title: '주소지', content: '서울특별시 강남구'},
     {id:4, icon: phoneIcon, title: '연락처', content: '010-5788-5120'},
     {id:5, icon: emailIcon, title: '이메일', content: 'turayevshahzodbek@gmail.com'},
-    {id:6, icon: eduIcon, title: '이메일', content: '동아대학교'},
+    {id:6, icon: eduIcon, title: '학력', content: '동아대학교'},
   ]
   return (
     <div id='pageAbout' className={styles.about}>
