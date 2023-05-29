@@ -40,7 +40,7 @@ const Resume = () => {
         <div className={styles.projectFeatures}>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> Main Functions</p>
-            <p>Brief self-introduction, technology stack, project experience, work experience</p>
+            <p>Brief self-introduction, technology stack, project experience, work experience, Google Analytics</p>
           </div>
           <div className={styles.featureItem}>
             <p><Image width={20} height={15} src={check} alt='check'/> GitHub</p>
